@@ -493,7 +493,7 @@ class MailAIProcessor:
         full_prompt = (extra_ctx + "\n\n" if extra_ctx else "") + (prompt or "")
         payload = {
             "model": self.config.OLLAMA_MODEL, 
-            "prompt": full_prompt,
+            "prompt": system_prompt,
             "stream": False
         }
         
@@ -708,3 +708,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
