@@ -1,12 +1,9 @@
 aiosmtplib
 beautifulsoup4
-lxml
 requests
-imapclient
-pillow
-pymupdf
-pdf2image
+PyPDF2
 python-docx
 openpyxl
+reportlab
 textract
-pypdf2
+lxml
