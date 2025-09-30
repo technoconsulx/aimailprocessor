@@ -5,7 +5,8 @@
 
 Установка Linux:
 1. sudo apt update && sudo apt upgrade -y
-2. sudo apt install -y python3 python3-pip python3-venv git wget build-essential libpoppler-dev libxml2-dev libxslt1-dev zlib1g-dev
+2. sudo apt update
+sudo apt install -y fonts-dejavu-core fonts-liberation fonts-freefont-ttf python3-dev build-essential libssl-dev libffi-dev poppler-utils libxml2-dev libxslt1-dev antiword python3-pip
 3. python3 -m venv ~/mailai_venv
 4. source ~/mailai_venv/bin/activate
 5. git clone https://github.com/technoconsulx/aimailprocessor.git
